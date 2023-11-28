@@ -1,0 +1,52 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  margin: 0 7px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.input::file-selector-button {
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(12, 66, 121);
+  padding: 0.5em;
+  border: none;
+  background-color: #d7d5ee;
+  transition: 1s;
+}
+
+.input::file-selector-button:hover {
+  background-color: #bcecec;
+}
+
+.container {
+  margin-right: 0;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: 100px 300px 300px;
+  column-gap: 10px;
+  background-color: lavenderblush;
+  width: fit-content;
+}
+
+.task {
+  font-weight: bold;
+}
+
+.border {
+  margin-right: 0;
+  border-right: 1px solid black;
+}
+
+.result--color {
+  color: rgb(9, 75, 142);
+  font-weight: bold;
+}
