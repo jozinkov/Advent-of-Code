@@ -1,0 +1,7 @@
+node_modules
+.vscode
+inputs
+favicon.ico
+.prettierrc
+package-lock.json
+.DS_Store
