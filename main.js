@@ -1,7 +1,7 @@
 const getOutput = function (fileData, fileName = 'input??.txt') {
   document.querySelector('.task').innerText = `Day ${fileName.slice(5, 7)}`;
 
-  import(`./days/day${fileName.match(/\d+/)[0]}.js`).then(Day => {
+  import(`./2023/day${fileName.match(/\d+/)[0]}.js`).then(Day => {
     Day.getResults(fileData);
     document.querySelector(
       '.result1'
