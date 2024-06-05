@@ -3,5 +3,6 @@ let res2 = 0;
 
 const getResults = function (fileData) {
   const data = fileData.split('\n').filter(d => d !== '');
+  // comment to test new git branch
 };
 export { getResults, res1, res2 };
