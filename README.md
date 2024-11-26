@@ -1,3 +1,3 @@
-# Advent of Code 2020
+# Advent of Code
 
-Javascript solutions
+My Javascript solutions
