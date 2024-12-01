@@ -18,12 +18,12 @@ const getResults = function (fileData) {
   rightList.sort((a, b) => a - b);
 
   res1 = leftList.reduce(
-    (acc, cur, i) => (acc += Math.abs(cur - rightList[i])),
+    (acc, cur, i) => acc + Math.abs(cur - rightList[i]),
     0
   );
 
   res2 = leftList.reduce(
-    (acc, cur) => (acc += cur * rightList.filter(v => v === cur).length),
+    (acc, cur) => acc + cur * rightList.filter(v => v === cur).length,
     0
   );
 };
