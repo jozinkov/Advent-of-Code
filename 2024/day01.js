@@ -23,7 +23,7 @@ const getResults = function (fileData) {
   );
 
   res2 = leftList.reduce(
-    (acc, cur, i) => (acc += cur * rightList.filter(v => v === cur).length),
+    (acc, cur) => (acc += cur * rightList.filter(v => v === cur).length),
     0
   );
 };
