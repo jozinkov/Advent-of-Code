@@ -5,10 +5,10 @@ const getOutput = function (fileData, fileName = 'input??.txt') {
     Day.getResults(fileData);
     document.querySelector(
       '.result1'
-    ).innerHTML = `Task 1: <span class="result--color">${Day.res1}</span>`;
+    ).innerHTML = `Part 1: <span class="result--color">${Day.res1}</span>`;
     document.querySelector(
       '.result2'
-    ).innerHTML = `Task 2: <span class="result--color">${Day.res2}</span>`;
+    ).innerHTML = `Part 2: <span class="result--color">${Day.res2}</span>`;
   });
 };
 

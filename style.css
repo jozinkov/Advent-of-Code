@@ -42,14 +42,15 @@ input[type='file'] {
   margin-right: 0;
   margin-bottom: 5px;
   display: grid;
-  grid-template-columns: 100px 300px 300px;
+  grid-template-columns: 200px 250px 250px;
   /* column-gap: 10px; */
-  justify-items: center;
+  justify-content: center;
   width: fit-content;
   background: #171735;
 }
 
 .task {
+  color: #009900;
   font-size: 1.1em;
   font-weight: bold;
   background: #171735;
@@ -60,10 +61,12 @@ span {
 }
 
 .result1 {
+  color: #009900;
   background: #171735;
 }
 
 .result2 {
+  color: #009900;
   background: #171735;
 }
 
