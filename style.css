@@ -42,7 +42,7 @@ input[type='file'] {
   margin-right: 0;
   margin-bottom: 5px;
   display: grid;
-  grid-template-columns: 200px 250px 250px;
+  grid-template-columns: 200px 300px 300px;
   /* column-gap: 10px; */
   justify-content: center;
   width: fit-content;
